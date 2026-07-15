@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imnuzzaman Emon | Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Bootstrap 5 & AOS Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-light text-dark">
+
+  <!-- Header / Navigation -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top shadow-sm py-3">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3 text-dark" href="#">Emon <span class="text-primary">Islam</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item mx-2"><a class="nav-link text-secondary fw-medium" href="#">Home</a></li>
+            <li class="nav-item mx-2"><a class="nav-link text-secondary fw-medium" href="#aboutmeid">About</a></li>
+            <li class="nav-item mx-2"><a class="nav-link text-secondary fw-medium" href="#educationid">Education</a>
+            </li>
+
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link dropdown-toggle text-secondary fw-medium" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Skills</a>
+              <ul class="dropdown-menu border-0 shadow" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#skillsid">Technical Skills</a></li>
+                <li><a class="dropdown-item" href="#skillsid">Soft Skills</a></li>
+                <li><a class="dropdown-item" href="#skillsid">Co-curricular</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item mx-2"><a class="nav-link text-secondary fw-medium" href="#projectsid">Projects</a></li>
+            <li class="nav-item mx-2"><a class="nav-link text-secondary fw-medium" href="#gallaryid">Gallery</a></li>
+            <!-- Direct Scroll Link to Resume Section -->
+            <li class="nav-item mx-2"><a class="nav-link text-secondary fw-medium" href="#resumeid">Resume</a></li>
+            <li class="nav-item mx-2"><a class="nav-link text-secondary fw-medium" href="#contactid">Contact</a></li>
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Carousel Section -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="picture/cox,s bazar.avif" class="d-block w-100" alt="Zamuna Badh" />
+        <!-- Added position utilities to force layout alignment strictly down at the bottom -->
+        <div class="carousel-caption position-absolute bottom-0 mb-5 pb-3">
+          <h2 class="display-4 fw-bold text-shadow">cox's bazar</h2>
+          <p class="fs-5 text-light opacity-90 text-shadow">Like the ocean, life has its tides—sometimes high, sometimes
+            low, but always moving forward.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="picture/river.avif" class="d-block w-100" alt="National Stadium" />
+        <!-- Added position utilities to force layout alignment strictly down at the bottom -->
+        <div class="carousel-caption position-absolute bottom-0 mb-5 pb-3">
+          <h2 class="display-4 fw-bold text-shadow">Mountain Escape</h2>
+          <p class="fs-5 text-light opacity-90 text-shadow">Where mountains embrace, the river finds its soul.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="picture/village.avif" class="d-block w-100" alt="Nilgiri" />
+        <!-- Added position utilities to force layout alignment strictly down at the bottom -->
+        <div class="carousel-caption position-absolute bottom-0 mb-5 pb-3">
+          <h2 class="display-4 fw-bold text-shadow">natural beauty</h2>
+          <p class="fs-5 text-light opacity-90 text-shadow">Traveling isn't an expense; it's an investment in your
+            mental peace.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- About Me Section -->
+  <section class="about bg-white border-bottom py-5 section-padding" id="aboutmeid">
+    <div class="container py-4">
+      <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="600">
+        <h2 class="fw-bold tracking-wide text-uppercase">About Me</h2>
+        <hr class="mx-auto border-primary opacity-100" style="width: 60px; height: 3px;" />
+        <p class="text-muted">Emon Islam</p>
+      </div>
+
+      <div class="row align-items-center g-5">
+        <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="600">
+          <div class="accordion accordion-flush border rounded shadow-sm" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false">
+                  Who am I?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h5 class="fw-bold text-primary mb-2">Hello, I am E,on Islam.</h5>
+                  <p class="text-muted mb-1">I love to play sports.and my fevourite sports is football.</p>
+                  <p class="text-muted">Currently, I am studying at MBSTU.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false">
+                  Passion
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h6 class="text-dark fw-bold mb-2">Programming, Web Development, Research, & Projects</h6>
+                  <p class="text-muted mb-0">I am extremely excited to learn and construct new things.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false">
+                  Hobby
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p class="text-muted mb-0 fw-medium text-dark">Watching dramas, playing football, and getting plenty of
+                    rest.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 text-center" data-aos="fade-left" data-aos-duration="600">
+          <img src="picture/profile.jpg" alt="Profile Picture"
+            class="img-fluid rounded shadow-sm border border-3 border-white max-img-height" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="Education py-5 bg-light" id="educationid">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold text-uppercase">Educational Attainment</h2>
+        <hr class="mx-auto border-primary opacity-100" style="width: 60px; height: 3px;" />
+        <p class="text-muted">Tanjil Islam Opu</p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+          <div class="card w-100 border-0 shadow-sm rounded-3 overflow-hidden">
+            <img src="images/jsc.jpeg" class="card-img-top object-fit-cover" height="180" alt="JSC" />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">JSC Result</h5>
+              <p class="card-text text-muted flex-grow-1">Junior School Certificate Result: 5.00</p>
+              <a href="#" class="btn btn-outline-primary btn-sm mt-3 rounded-pill">JSC Archive</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+          <div class="card w-100 border-0 shadow-sm rounded-3 overflow-hidden">
+            <img src="images/ssc.jpg" class="card-img-top object-fit-cover" height="180" alt="SSC" />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">SSC Result</h5>
+              <p class="card-text text-muted flex-grow-1">Secondary School Certificate Result: 5.00</p>
+              <a href="#" class="btn btn-outline-primary btn-sm mt-3 rounded-pill">SSC Archive</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+          <div class="card w-100 border-0 shadow-sm rounded-3 overflow-hidden">
+            <img src="images/hsc certificate.jpeg" class="card-img-top object-fit-cover" height="180" alt="HSC" />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">HSC Result</h5>
+              <p class="card-text text-muted flex-grow-1">Higher Secondary Certificate Result: 5.00</p>
+              <a href="#" class="btn btn-outline-primary btn-sm mt-3 rounded-pill">HSC Archive</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+          <div class="card w-100 border-0 shadow-sm rounded-3 overflow-hidden">
+            <img src="images/1.1 result card.jpg" class="card-img-top object-fit-cover" height="180" alt="BSc" />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">BSc Result</h5>
+              <p class="card-text text-muted flex-grow-1">BSc in Engineering Result: 3.6+</p>
+              <a href="#" class="btn btn-outline-primary btn-sm mt-3 rounded-pill">BSC Archive</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills bg-white border-top border-bottom py-5" id="skillsid">
+    <div class="container py-4">
+      <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="600">
+        <h2 class="fw-bold text-uppercase">Skills</h2>
+        <hr class="mx-auto border-primary opacity-100" style="width: 60px; height: 3px;" />
+        <p class="text-muted">Tanjil Islam Opu</p>
+      </div>
+
+      <div class="accordion border rounded shadow-sm overflow-hidden mx-auto" style="max-width: 850px;"
+        id="accordionPanelsStayOpenExample">
+        <div class="accordion-item border-0 border-bottom">
+          <h2 class="accordion-header">
+            <button class="accordion-button fw-bold py-3 fs-5" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne">
+              Technical Skills
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show bg-light">
+            <div class="accordion-body">
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge bg-white border text-dark p-2 fs-6 rounded-pill">HTML5</span>
+                <span class="badge bg-white border text-dark p-2 fs-6 rounded-pill">CSS3 & Bootstrap 5</span>
+                <span class="badge bg-white border text-dark p-2 fs-6 rounded-pill">JavaScript</span>
+                <span class="badge bg-white border text-dark p-2 fs-6 rounded-pill">AOS Animations</span>
+                <span class="badge bg-white border text-dark p-2 fs-6 rounded-pill">Responsive Web Design</span>
+                <span class="badge bg-white border text-dark p-2 fs-6 rounded-pill">MySQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item border-0 border-bottom">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold py-3 fs-5" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo">
+              Soft Skills
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse bg-light">
+            <div class="accordion-body">
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge bg-white border text-dark p-2 fs-6 rounded-pill">Communication</span>
+                <span class="badge bg-white border text-dark p-2 fs-6 rounded-pill">Teamwork</span>
+                <span class="badge bg-white border text-dark p-2 fs-6 rounded-pill">Problem-solving</span>
+                <span class="badge bg-white border text-dark p-2 fs-6 rounded-pill">Time Management</span>
+                <span class="badge bg-white border text-dark p-2 fs-6 rounded-pill">Adaptability</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item border-0">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold py-3 fs-5" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree">
+              Co-curricular Skills
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse bg-light">
+            <div class="accordion-body">
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge bg-white border text-dark p-2 fs-6 rounded-pill">Cricket</span>
+                <span class="badge bg-white border text-dark p-2 fs-6 rounded-pill">Football</span>
+                <span class="badge bg-white border text-dark p-2 fs-6 rounded-pill">Volunteering & Event Support</span>
+                <span class="badge bg-white border text-dark p-2 fs-6 rounded-pill">Organization</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects py-5 bg-light" id="projectsid">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold text-uppercase">Projects</h2>
+        <hr class="mx-auto border-primary opacity-100" style="width: 60px; height: 3px;" />
+        <p class="text-muted">Tanjil Islam Opu</p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <div class="col-12 col-md-6 col-lg-4 d-flex">
+          <div class="card w-100 border-0 shadow-sm rounded-3 overflow-hidden">
+            <img src="images/number_guess_game.png" class="card-img-top object-fit-cover" height="200" alt="Project" />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">Number guess with login and registration</h5>
+              <p class="card-text text-muted flex-grow-1">First-year introductory code concept created in the C++
+                programming language.</p>
+              <a href="https://github.com/TanjilOpu/project1" class="btn btn-primary btn-sm rounded-pill mt-3 w-50">GitHub Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 d-flex">
+          <div class="card w-100 border-0 shadow-sm rounded-3 overflow-hidden">
+            <img src="images/mess finder.png" class="card-img-top object-fit-cover" height="200" alt="Project" />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">Console-Based Project</h5>
+              <p class="card-text text-muted flex-grow-1">MBSTU Mess Finder CLI system built using standard C++ logic
+                hooked to a MySQL architecture.</p>
+              <a href="https://github.com/TanjilOpu/project2" class="btn btn-primary btn-sm rounded-pill mt-3 w-50">GitHub Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 d-flex">
+          <div class="card w-100 border-0 shadow-sm rounded-3 overflow-hidden">
+            <img src="images/mbstu abason.png" class="card-img-top object-fit-cover" height="200" alt="Project" />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">MBSTU Abason Web</h5>
+              <p class="card-text text-muted flex-grow-1">Web-based accommodation searching interface dynamically
+                leveraging HTML, CSS, JavaScript, and Firebase backend setups.</p>
+              <a href="https://mbstu-abason.netlify.app/" target="_blank" class="btn btn-primary btn-sm rounded-pill mt-3 w-50">Website Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallary bg-white border-top border-bottom py-5" id="gallaryid">
+    <div class="container py-4">
+      <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="600">
+        <h2 class="fw-bold text-uppercase">Gallery</h2>
+        <hr class="mx-auto border-primary opacity-100" style="width: 60px; height: 3px;" />
+        <p class="text-muted">Tanjil Islam Opu</p>
+      </div>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="card border-0 shadow-sm rounded-3 overflow-hidden h-100 gallery-hover">
+            <img src="images/national stadium vollyball.jpeg" class="card-img-top img-fluid object-fit-cover h-100" style="min-height:220px;"
+              alt="Gallery Image">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 shadow-sm rounded-3 overflow-hidden h-100 gallery-hover">
+            <img src="images/vcrest.jpeg" class="card-img-top img-fluid object-fit-cover h-100 w-110" style="min-height:220px;"
+              alt="Gallery Image">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 shadow-sm rounded-3 overflow-hidden h-100 gallery-hover">
+            <img src="images/cricket.jpeg" class="card-img-top img-fluid object-fit-cover h-100" style="min-height:220px;"
+              alt="Gallery Image">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 shadow-sm rounded-3 overflow-hidden h-100 gallery-hover">
+            <img src="images/football.jpeg" class="card-img-top img-fluid object-fit-cover h-100" style="min-height:220px;"
+              alt="Gallery Image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Inline Resume Viewer Section -->
+  <section class="resume-section py-5 bg-white" id="resumeid" data-aos="fade-up" data-aos-duration="600">
+    <div class="container py-4">
+      <div class="text-center mb-4">
+        <h2 class="fw-bold text-uppercase">My Resume</h2>
+        <hr class="mx-auto border-primary opacity-100" style="width: 60px; height: 3px;" />
+        <p class="text-muted">Review my background context directly below or download a physical copy</p>
+      </div>
+
+      <!-- Embedded PDF Container Box -->
+      <div class="mx-auto shadow rounded-3 overflow-hidden border border-light" style="max-width: 850px;">
+        <!-- <div class="bg-light p-3 border-bottom d-flex justify-content-between align-items-center">
+          <span class="small fw-medium text-secondary">📄 Tanjil_Opu_Resume.pdf</span>
+          <a href="Resume.pdf" download="Tanjil_Opu_Resume.pdf"
+            class="btn btn-primary btn-sm px-3 rounded-pill fw-bold">
+            📥 Download Resume
+          </a>
+        </div> -->
+
+        <div class="bg-secondary" style="height: 600px;">
+          <iframe src="Resume.pdf" width="100%" height="100%" style="border: none;">
+            <div class="text-white p-4 text-center">
+              <h5>In-browser PDF viewer not supported.</h5>
+              <p>You can read the file directly after accessing the click asset below:</p>
+              <a href="Resume.pdf" class="btn btn-light rounded-pill btn-sm" download>Download PDF File</a>
+            </div>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Info Cards Section -->
+  <section class="contact py-5 bg-light border-bottom" id="contactid">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold text-uppercase">Contact Info</h2>
+        <hr class="mx-auto border-primary opacity-100" style="width: 60px; height: 3px;" />
+        <p class="text-muted">Let's connect! Here is how you can reach me directly</p>
+      </div>
+
+      <div class="row g-4 justify-content-center mx-auto" style="max-width: 900px;">
+        <!-- Mobile Card -->
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="card border-0 shadow-sm p-4 text-center h-100 contact-card">
+            <div class="fs-1 text-primary mb-2">📞</div>
+            <h5 class="fw-bold">Call Me</h5>
+            <p class="text-muted mb-0 mt-2">+880 1721382319</p>
+          </div>
+        </div>
+
+        <!-- Email Card -->
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="card border-0 shadow-sm p-4 text-center h-100 contact-card">
+            <div class="fs-1 text-primary mb-2">✉️</div>
+            <h5 class="fw-bold">Email</h5>
+            <p class="text-muted mb-0 mt-2">tanjilislamopu468@gmail.com</p>
+          </div>
+        </div>
+
+        <!-- Facebook Card -->
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="card border-0 shadow-sm p-4 text-center h-100 contact-card">
+            <div class="fs-1 text-primary mb-2">🌐</div>
+            <h5 class="fw-bold">Facebook</h5>
+            <p class="mb-0 mt-2">
+              <a href="https://www.facebook.com/profile.php?id=61575439383219" target="_blank"
+                class="btn btn-sm btn-primary px-3 rounded-pill text-white fw-bold">Visit Profile</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light border-top py-4 text-center">
+    <p class="text-muted mb-0 small">&copy; 2026 Tanjil Islam Opu. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true
+    });
+  </script>
+</body>
+
+</html>

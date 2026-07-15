@@ -1,0 +1,51 @@
+/* Base styles & Fonts resetting */
+body {
+    font-family: "Ubuntu", sans-serif;
+    padding-top: 75px; /* Added spacing preventing content clip behind fixed navbar */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Ubuntu", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+/* Hero Carousel Control adjustments */
+.carousel-item {
+    height: 75vh; /* Balanced perspective from 110vh preventing over-stretching */
+    background: #000;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center; /* Centered layout perspective instead of left alignment */
+    opacity: 0.65; /* Dark overlay helper tint making text clear and viewable */
+}
+
+.carousel-caption {
+    bottom: 25%;
+    z-index: 10;
+}
+
+/* Smooth gallery hover transitions */
+.gallery-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12) !important;
+}
+
+/* Image scaling limits */
+.max-img-height {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Utility layout definitions */
+.object-fit-cover {
+    object-fit: cover;
+}
